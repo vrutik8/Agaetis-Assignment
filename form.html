@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form validation with Harry</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Form Validation</h1>
+            <form action="index.html" name="myform" onsubmit="return validate()" method="post">
+                <div class="formdesign" id="name">
+                    Name: <input type="text" name="fname">
+                    <span class="formerror"></span>
+                </div>
+
+                <br>
+                <div class="formdesign" id="email">
+                    E-Mail: <input type="mail" name="femail">
+                    <span class="formerror"></span>
+                </div>
+                <br>
+
+                <div class="formdesign" id="Phone">
+                    Phone: <input type="text" name="fphone">
+                    <span class="formerror"></span>
+                </div>
+                <br>
+
+                <div class="formdesign" id="password">
+                    Password: <input type="password" name="fpassword">
+                    <span class="formerror"></span>
+                </div>
+                <br>
+
+                <div class="formdesign" id="cpassword">
+                    Confirm Password: <input type="password" name="fcpassword">
+                    <span class="formerror"> </span>
+                </div>
+                <br>
+
+                <input type="submit" value="submit" class="btn">
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 1px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    align-items: center;
+    color: grey;
+}
+.center{
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+    font-family: 'Noto Serif Khojki', serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav>li>a{
+    text-decoration: none;
+    color: grey;
+}
+nav>li{
+    list-style: none;
+}
+.container{
+    height:  15rem;
+    background-color: rgb(55, 54, 54);
+    color: white;
+}
+
+.content-box{
+    padding: 10px;
+    margin: 22px;
+}
+
+.card
+{
+    margin: 1em;
+    border: 2px solid rgb(182, 180, 180);
+    display: flex;
+
+    width: 50%; 
+}
+.card-content{
+    width: 26rem;
+    padding: 2rem;
+}
+
+.thumbnail{
+    width: auto;
+    padding: 1.5rem 3rem;
+    color: azure;
+    height: auto;
+    background-color: grey;
+    text-align: center;
+    line-height: 10rem; 
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between; 
+}
+
+#Firehouse-blog h2{
+    padding: 1rem ;
+}
+
+#paraone{
+    margin: 1rem;
+}
+#paratwo{
+    margin: 1rem;
+}
+#parathree{
+    margin: 1rem;
+}
+#parafour{
+    margin: 1rem;
+}
+#headingparaone{
+    margin: 1rem;
+}
+.sub_headingparaone{
+    margin: 1rem;
+    
+}
+.sub_headingpara{
+    padding: 1rem;
+}
+
+.sub_heading2para{
+    padding: 1rem;
+}
+
+.sub_heading2para_listing{
+    margin-left: 4rem;
+}
+
+.blogpostpara{
+    padding: 1rem;
+}
+.featurepara{
+    padding: 1rem;
+}
+
+.btns button{
+    border-radius: 22px;
+    height: 2rem;
+    width: 4rem;
+    margin-top: 4rem;
+}
+
+.btns{
+    padding: 1rem;
+}
+#older{
+    color: blue;
+}
+#newer{
+    border: 1px solid rgb(116, 116, 121);
+    color: rgb(153, 153, 157);
+}
+
+/* flex */
+
+#Firehouse{
+    display: flex;
+}
+
+.flex2{
+
+    background-color: ghostwhite;
+}
+
+.flex2>h1{
+    margin-top: 22px;
+    padding: 0px;
+}
+
+.archiesmonths{
+    font-size: 12px;
+    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.archies  h1{
+    margin-top: 22px;
+    padding: 0px;
+}
+
+.elsewhere h1{
+    margin-top: 22px;
+    padding: 0px;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem;
+}
+footer h3{
+    padding: 1rem;
+}
+
+.about{
+    background-color: rgb(239, 239, 239);
+    padding: 1rem;
+}
+.containers{
+    width: 1240px;
+    margin:0 auto ;
+}
+
+
+
